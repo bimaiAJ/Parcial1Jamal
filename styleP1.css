@@ -1,0 +1,83 @@
+/* Header */
+.headerC {
+    background: linear-gradient(blue, skyblue);
+    color: white;
+}
+
+.nav-link-color{
+    color:aqua;
+}
+
+/* Showcase */
+
+.showcase .btn-dark {
+    background-color: #004080;
+    border-color: #004080;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.showcase .btn-dark:hover {
+    background-color: green;
+}
+
+/* Features */
+
+#features {
+    background: linear-gradient(violet,purple );  
+}
+
+.acomodar {
+    border: 5px solid black; /* Tamaño y color del borde */
+    border-radius: 8px; /* Redondea los bordes del borde */
+    padding: 5px; /* Agrega espacio entre la imagen y el borde */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra sutil */
+    transition: transform 0.3s ease; /* Transición suave para el escalado */
+}
+
+.acomodar:hover {
+    transform: scale(1.05); /* Escala la imagen al 105% cuando el cursor está sobre ella */
+}
+
+.italic-text p, .italic-text h2 {
+    font-style: italic; /*ESTATISTICS*/
+}
+
+/* Services */
+#services .card {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#services {
+    background: linear-gradient(#e4605e, red );  
+}
+
+#services .card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Estilos específicos para el segunda forma*/
+@media (min-width: 576px) and (max-width: 992px) {
+    .showcase .display-4 {
+        font-size: 2.5rem; 
+    }
+    
+    .showcase .lead {
+        font-size: 1rem; 
+    }
+    
+    .stats .display-2 {
+        font-size: 2rem; 
+    }
+    
+    .card {
+        margin-bottom: 1.5rem; 
+    }
+    
+    .d-flex {
+        flex-direction: column; 
+}
+}
