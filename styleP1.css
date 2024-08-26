@@ -27,7 +27,7 @@
 }
 
 .acomodar {
-    border: 5px solid black; /* Tamaño y color del borde */
+    border: 5px solid white; /* Tamaño y color del borde */
     border-radius: 8px; /* Redondea los bordes del borde */
     padding: 5px; /* Agrega espacio entre la imagen y el borde */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra sutil */
